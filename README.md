@@ -28,7 +28,7 @@ new_mac_address is the new MAC Address that you want to replace in place of the 
 
 Note: Look at the **'ether'** field for the MAC Address
 ```bash
-root@kali:~/Desktop/MAC-Addr-Changer# ifconfig
+root@kali:~/Desktop/MAChanger# ifconfig
 
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 
@@ -47,7 +47,7 @@ eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 #### Output of the Script
 
 ```bash
-root@kali:~/Desktop/MAC-Addr-Changer# python3 mac_changer.py -i eth0 -m 0a:01:33:55:21:9a 
+root@kali:~/Desktop/MAChanger# python3 mac_changer.py -i eth0 -m 0a:01:33:55:21:9a 
 
 [+] MAC Address Before Change -> 08:00:27:35:21:ff
 
@@ -64,7 +64,7 @@ root@kali:~/Desktop/MAC-Addr-Changer# python3 mac_changer.py -i eth0 -m 0a:01:33
 Note: Look at the **'ether'** field for the MAC Address
 
 ```bash
-root@kali:~/Desktop/MAC-Addr-Changer# ifconfig
+root@kali:~/Desktop/MAChanger# ifconfig
 
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 
