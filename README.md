@@ -2,7 +2,7 @@
 
 A python script to change the MAC Address.
 
-Read the entire article [here](https://medium.com/@dharmilch18/changing-mac-address-using-python-8a16fc4a3563)
+### Read the entire article [here](https://medium.com/@dharmilch18/changing-mac-address-using-python-8a16fc4a3563)
 
 MAChange.py = This file is a simpler version of the script. It asks the user for the interface_name and the new_mac_address.
 
